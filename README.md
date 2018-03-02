@@ -22,6 +22,7 @@ docker run -v /path/to/conf-dir:/conf -v /path/to/logs-dir:/logs upstreamsecurit
 ```
 
 ### UDP Support
+
 This image supports capturing UDP packets and transferring them as part of the filebeat process.
 In order to run with UDP support issue:
 
