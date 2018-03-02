@@ -20,5 +20,14 @@ This image is automatically built at every push of this repository and every tim
 ```bash
 docker run -v /path/to/conf-dir:/conf -v /path/to/logs-dir:/logs upstreamsecurity:docker-filebeat
 ```
+
+### UDP Support
+This image supports capturing UDP packets and transferring them as part of the filebeat process.
+In order to run with UDP support issue:
+
+```bash
+docker run -p [HostPort]:30000 -v /path/to/conf-dir:/conf upstreamsecurity:docker-filebeat
+```
+
 ## Filebeat Configuration file
 official docs: https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-configuration.html
