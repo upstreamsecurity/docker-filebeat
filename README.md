@@ -7,7 +7,8 @@ Filebeat helps you keep the simple things simple by offering a lightweight way t
 
 ## Supported tags and respective `Dockerfile` links
 
--	[`6.2.1`, `latest` (*Dockerfile*)](https://github.com/upstreamsecurity/docker-filebeat/blob/master/Dockerfile)
+-	[`6.3.1`, `latest` (*Dockerfile*)](https://github.com/upstreamsecurity/docker-filebeat/blob/master/Dockerfile)
+-	[`6.2.1`,(*Dockerfile*)](https://github.com/upstreamsecurity/docker-filebeat/blob/6.2.1/Dockerfile)
 -	[`5.6.0` (*Dockerfile*)](https://github.com/upstreamsecurity/docker-filebeat/blob/5.6.0/Dockerfile)
 -	[`5.4.3` (*Dockerfile*)](https://github.com/upstreamsecurity/docker-filebeat/blob/5.4.3/Dockerfile)
 
